@@ -71,15 +71,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey hi {}, I'm {}!
-I am an Anime themed group management bot.
-Built by weebs for weebs, I specialize in managing anime eccentric communities!
+Hey hi {}, I'm Hagrid!
+I am an Hogwarts themed group management bot.
+My father is voldy!
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
-the things I can help you with.
+Hey there! My name is *HAGDRID*.
+I am a group management bot in telegram. I can manage your group and help to do your v works ezy
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -100,9 +99,9 @@ And the following:
 SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
+ You can support the project via contacting @iron_voldy \
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
+ Those who cannot provide monetary support are welcome to help us develop the bot to contact @iron_voldy."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -232,7 +231,7 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
-                                url="https://t.me/OnePunchUpdates",
+                                url="https://t.me/hadridlogs",
                             ),
                         ],
                         [
@@ -242,13 +241,13 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                                url="https://telegra.ph/file/e8f1a992e19a352555b7d.jpg",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="☠️ Kaizoku Network",
-                                url="https://t.me/Kaizoku/4",
+                                text="☠️ TEAM DEATH EATERS ☠️",
+                                url="https://t.me/iron_voldy",
                             ),
                         ],
                     ],
